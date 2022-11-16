@@ -58,5 +58,12 @@ public class Operators {
 
         System.out.println(" I will go outside " + (sun && dry));
 
+        //logical OR - ||
+
+        boolean sale = false;
+        boolean rich = true;
+
+        System.out.println("I will buy iPhone " + (sale || rich));
+
     }
 }
